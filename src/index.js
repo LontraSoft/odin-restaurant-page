@@ -1,5 +1,5 @@
 import "./index.css"
-import {initialLoad} from "./initial-load.js";
+import {initialLoad, homeContent} from "./initial-load.js";
 
 const homeButton = document.querySelector("#home-button");
 const menuButton = document.querySelector("#menu-button");
