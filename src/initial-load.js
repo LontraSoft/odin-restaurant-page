@@ -1,3 +1,6 @@
+import "./initial-load-styles.css";
+import heroImage from "./images/restaurant.jpg";
+
 const HERO_HEADER_TEXT = "Le Restaurant";
 const HERO_TEXT = "Your destination for deliciousness";
 

@@ -1,0 +1,31 @@
+h1 {
+    margin: 0;
+    padding: 0;
+}
+
+#content {
+    background-color: #ddd;
+}
+
+.hero {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.hero-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px
+}
+
+.hero img {
+    height: 200px;
+    width: auto;
+    object-fit: contain;
+}
+
+
