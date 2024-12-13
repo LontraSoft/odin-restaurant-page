@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+header {
+    background-color: #88f;
+    height: clamp(20px, 5%, 100px);
+}
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+li {
+    height: 50px;
+    list-style-type: none;
+    padding: 10px 0;
+}
+
+button {
+    height: 100%;
+    background-color: rgb(0, 0, 0, 0.7);
+    color: white;
+    aspect-ratio: 2 / 1;
+    border: none;
+    border-radius: 15px;
+}
+
