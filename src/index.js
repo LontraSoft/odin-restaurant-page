@@ -15,6 +15,7 @@ function clearContent() {
 function switchContentHome() {
     console.log("Switching to home content");
     clearContent();
+    contentContainer.appendChild(homeContent);
 }
 
 function switchContentMenu() {
