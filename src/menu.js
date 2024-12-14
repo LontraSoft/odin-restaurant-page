@@ -64,6 +64,7 @@ let fajitasMenuItem = new MenuItem(fajitasName, fajitasImgSrc,fajitasDescription
 let tacosMenuItem = new MenuItem (tacosName, tacosImgSrc,tacosDescription);
 let nachosMenuItem = new MenuItem (nachosName, nachosImgSrc, nachosDescription);
 
+menuContent.appendChild(menuHeading);
 menuContent.appendChild(enchiladasMenuItem.generateContainer(document));
 menuContent.appendChild(fajitasMenuItem.generateContainer(document));
 menuContent.appendChild(tacosMenuItem.generateContainer(document));
