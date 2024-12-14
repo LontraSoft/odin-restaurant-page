@@ -1,3 +1,8 @@
+import enchiladasImage from "./images/enchiladas.jpeg";
+import fajitasImage from "./images/fajitas.jpg";
+import tacosImage from "./images/tacos.jpg";
+import nachosImage from "./images/nachos.jpg";
+
 // Page consists of a header followed by multiple menu items
 let menuContent = document.createElement("div");
 let menuHeading = document.createElement("h1");
@@ -35,7 +40,7 @@ class MenuItem {
 
 
 const enchiladasName = "Enchiladas";
-const enchiladasImgSrc = "PLACEHOLDER";
+const enchiladasImgSrc = enchiladasImage;
 const enchiladasDescription =
       "Savory corn tortillas filled with your choice of seasoned meat, " +
       "cheese, or beans, then rolled and smothered in a rich, flavorful " +
@@ -43,15 +48,15 @@ const enchiladasDescription =
       "rice and beans for a truly satisfying meal."
 
 const fajitasName = "Fajitas";
-const fajitasImgSrc = "PLACEHOLDER";
+const fajitasImgSrc = fajitasImage;
 const fajitasDescription = "PLACEHOLDER"; 
 
 const tacosName = "Tacos";
-const tacosImgSrc = "PLACEHOLDER";
+const tacosImgSrc = tacosImage;
 const tacosDescription = "PLACEHOLDER";
 
 const nachosName = "Nachos";
-const nachosImgSrc = "PLACEHOLDER";
+const nachosImgSrc = nachosImage;
 const nachosDescription = "PLACEHOLDER";
 
 let enchiladasMenuItem = new MenuItem(enchiladasName, enchiladasImgSrc, enchiladasDescription);
