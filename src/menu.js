@@ -1,5 +1,3 @@
-const contentContainer = document.querySelector("#content");
-
 // Page consists of a header followed by multiple menu items
 let menuContent = document.createElement("div");
 let menuHeading = document.createElement("h1");
