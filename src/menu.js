@@ -6,6 +6,9 @@ import nachosImage from "./images/nachos.jpg";
 // Page consists of a header followed by multiple menu items
 let menuContent = document.createElement("div");
 let menuHeading = document.createElement("h1");
+
+menuContent.className = "menu-content";
+
 menuHeading.textContent = "Menu";
 
 class MenuItem {
