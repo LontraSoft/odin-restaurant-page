@@ -1,0 +1,42 @@
+.menu-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #cc9;
+    padding: 20px 5%;
+    gap: 20px;
+}
+
+.menu-item-container {
+    display: grid;
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    aspect-ratio: 3 / 1;
+    grid-template:
+	"menuImg menuName" 1fr
+	"menuImg menuDesc" 4fr / 50% 1fr;
+}
+
+.menu-item-img {
+    height: 90%;
+    object-fit: contain;
+    grid-area: menuImg;
+    justify-self: start;
+    align-self: center;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+
+.menu-item-name {
+    grid-area: menuName;
+    justify-self: start;
+    align-self: end;
+}
+
+.menu-item-description {
+    grid-area: menuDesc;
+    justify-self: start;
+    align-self: start;
+}

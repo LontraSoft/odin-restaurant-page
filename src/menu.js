@@ -1,3 +1,5 @@
+import "./menu.css";
+
 import enchiladasImage from "./images/enchiladas.jpeg";
 import fajitasImage from "./images/fajitas.jpg";
 import tacosImage from "./images/tacos.jpg";
