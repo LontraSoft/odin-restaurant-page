@@ -1,0 +1,12 @@
+.about-content {
+    padding: 20px 20%;
+    background-color: #cc9;
+}
+
+.about-content h1 {
+    text-align: center;
+}
+
+.about-content p {
+    text-align: justify;
+}

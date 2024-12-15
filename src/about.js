@@ -1,3 +1,5 @@
+import "./about.css"
+
 const HEADING_TEXT = "About"
 const RESTAURANT_DESCRIPTION =
       "Welcome to Le Restaurant, where bold flavors and warm " +
