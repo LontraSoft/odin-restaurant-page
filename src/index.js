@@ -1,6 +1,7 @@
 import "./index.css"
 import {initialLoad, homeContent} from "./initial-load.js";
 import {menuContent} from "./menu.js";
+import {aboutContent} from "./about.js";
 
 const contentContainer = document.querySelector("#content");
 const homeButton = document.querySelector("#home-button");
@@ -28,6 +29,7 @@ function switchContentMenu() {
 function switchContentAbout() {
     console.log("Switching to about content");
     clearContent();
+    contentContainer.appendChild(aboutContent);
 }
 
 homeButton.addEventListener("click", switchContentHome);
